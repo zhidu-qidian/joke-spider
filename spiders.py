@@ -10,11 +10,6 @@ from w3lib.encoding import html_to_unicode
 from bs4 import Tag, BeautifulSoup
 from pymongo.errors import DuplicateKeyError
 
-__author__ = "Sven Lee"
-__copyright__ = "Copyright 2016-2019, ShangHai Lie Ying"
-__license__ = "Private"
-__email__ = "lee1300394324@gmail.com"
-__date__ = "2017-02-28 15:14"
 
 
 def find_tag(root, param):
